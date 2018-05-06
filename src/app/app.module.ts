@@ -8,7 +8,7 @@ import { SayDynamicBoldComponent } from './components/say-dynamic-bold/say-dynam
 
 const appRoutes: Routes = [
   { path: 'sayLight', component: SayLightComponent },
-  { path: 'sayBold', component: SayDynamicBoldComponent},
+  { path: 'sayBold/:text', component: SayDynamicBoldComponent},
 ];
 
 @NgModule({

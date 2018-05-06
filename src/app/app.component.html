@@ -3,7 +3,7 @@
   <h1>Exercise on Router Module</h1>
   <nav>
     <button type="button" routerLink="/sayLight" routerLinkActive="active">Say Light</button>
-    <button type="button" routerLink="/sayBold"  routerLinkActive="active">Say Bold</button>
+    <button type="button" [routerLink]="['/sayBold','I am here!']"  routerLinkActive="active">Say Bold</button>
   </nav>
   <router-outlet></router-outlet>
 </div>
